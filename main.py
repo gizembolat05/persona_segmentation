@@ -45,4 +45,4 @@ new_user2="BRA_ANDROID_FEMALE_19_23"
 agg_df[agg_df["customers_level_based"] == new_user]
 agg_df[agg_df["customers_level_based"] == new_user2]
 
-#agg_df.to_csv("output/agg_df.csv", index=False)
+agg_df.to_csv("output/agg_df.csv", index=False)
